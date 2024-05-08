@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url('./cafe.jpeg') ;
+    background-size:cover;
+}
+
+header {
+    background-color: #53c673;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+p{
+    display: flex;
+}
+nav{
+    position:sticky;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    position:sticky;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    position:sticky;
+}
+
+
+
+/* Position Properties */
+.about {
+    position: relative;
+    top: 50px;
+}
+
+.menu {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+}
+
+.contact {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
